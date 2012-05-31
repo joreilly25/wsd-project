@@ -1,0 +1,3 @@
+[submodule "WSD-site"]
+	path = WSD-site
+	url = git@github.com:joreilly25/wsd-project.git
