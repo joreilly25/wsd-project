@@ -1,0 +1,211 @@
+/*--------------------------Font Declaration--------------------------*/
+@font-face{
+	font-family: Righteous;
+	src: url(http://fonts.googleapis.com/css?family=Righteous);
+}
+
+@font-face{
+	font-family: Shojumaru;
+	src: url(http://fonts.googleapis.com/css?family=Shojumaru);
+}
+/*--------------------------Body Background--------------------------*/
+body{
+	margin: 0;
+	background-image: url('../images/bg_main.jpg');
+	background-repeat: repeat-x;
+	background-color: #550602;
+	color: #f3d18a;
+}
+/*--------------------------Navigation--------------------------*/
+nav ul{
+	list-style-type: none;
+	margin: 0 auto;
+	padding-left: 150px;
+	border: none;
+	overflow: hidden;
+}
+
+nav li{
+	width: 220px;
+	float: left;
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+nav a{
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	color: orange;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: purple;
+}
+
+nav a:hover{
+	background: #f3d18a;
+	border-radius: 40px 10px;
+	color: red;
+	
+}
+
+nav a:active{
+	background: #550602;
+	color: #f3d18a;
+}
+
+ol{
+	text-align: left;
+	width: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*--------------------------Main Content--------------------------*/
+#wrapper{
+	background: #2f0101;
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Shojumaru', cursive, arial;
+}
+
+header{
+	text-align: center;
+	}
+	
+h2{
+	font-size: 40px;
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+}
+
+h3{
+	padding: 10px;
+	text-shadow: #fff 0.3em 0.1em 1em;
+	font-family: 'Righteous', cursive;
+}
+
+h4{
+	text-decoration: underline;
+}
+
+#maincontent{
+	text-align: center;
+}
+
+img{
+	border: solid;
+}
+#aboutgw2{
+	padding: 5px;
+	-moz-column-count: 3;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: 2px dashed #550602;	
+}
+	
+article{
+	width: 480px;
+	float:left;
+}
+
+article h2{
+	font-size: 25px;
+}
+
+aside{
+	overflow: hidden;
+}
+
+
+.clearfix{
+	clear:both;
+}
+/*--------------------------Professions Content--------------------------*/
+#professioncontent{
+	clear: both;
+	text-align: center;
+}
+
+#professioncontent h2{
+		padding-top: 20px;
+		font-size: 40px;
+}
+.profimg{
+	border: none;
+	float: left;
+}
+
+.profession_info{
+	width: 480px;
+}
+
+.profsection{
+	width: 480px;
+	height: 225px;
+	float: left;
+	text-align: left;
+}
+
+h3{
+	margin: 0px;
+}
+/*--------------------------Gallery--------------------------*/
+#gallery{
+	clear: left;
+}
+
+#gallery img{
+	border: none;
+}
+
+#gallerysection h2{
+	clear: left;
+	padding-top: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+
+ul{
+	border: solid 1px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul li{
+	float: left;
+	padding: 10px;
+}
+
+#gallery a{
+	border: solid 10px green;
+	height: 225px;
+	width: 400px;
+	display: block;
+}
+
+#gallery a:visited{
+	border-color:purple;
+}
+
+#gallery a:hover{
+	border-color:orange;
+}
+
+#gallery a:active{
+	border-color:#f3d18a;
+}
+/*--------------------------Footer--------------------------*/
+footer{
+	
+	text-align: center;
+	background: black;
+	padding: 1px 10px;
+	
+}
