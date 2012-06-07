@@ -4,8 +4,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>A Guild Wars 2 Fansite!</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Shojumaru' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 	</head>
-<body>	
+<body>
+	<div id="wrapper">	
 	<header>				
 		<h1>Guild Wars 2 Fansite</h1>
 		<img src="images/GW2_mainimage.jpg" width="930" height="350" alt="The main image for this Guild Wars 2 fansite" title="Guild Wars 2 fansite!"/>
@@ -17,87 +21,99 @@
 			</ul>
 		</nav>
 	</header>
-		
-
-<div id="wrapper">
+	<div class="clearfix"></div>
+	
 	<section id="maincontent">
 	
 		<h2 id="gw2head">About Guild Wars 2</h2>
-			<p>Guild Wars 2 is an <em>MMORPG</em> or <strong>Massively Multiplayer Online Role-Playing Game</strong> currently in
-				development by <a href="http://www.arena.net">ArenaNet</a>. The game is set in the amazing fantasy world named Tyria.
-				Where players choose to be one of the eight very unique character professions.</p>
+			<p id="aboutgw2">For generations, war and chaos raged across the land of Tyria. Five great races competed and warred against each other, struggling to tip the balance of power in their favor.
+
+Then the dragons woke.
+
+The all-powerful beasts stirred from their millennial sleep under earth and sea. With their magical breath the dragons spread destruction and created legions of twisted slaves. A deathless dragon named Zhaitan raised the sunken nation of Orr, triggering earthquakes and tidal waves that destroyed entire cities across the Sea of Sorrows.
+
+Zhaitan's undead armies surged from the sea, hungry for the destruction of the five races of Tyria: the charr, a ferocious race of feline warriors; the asura, magical inventors of small size and great intellect; the norn, towering shapeshifters from the frigid northern lands; the sylvari, a mysterious young race of visionary plant folk; and the humans, an embattled but resilient people.
+
+Now heroes from the five races must set aside ancient rivalries and stand together against their common enemies.
+
+Magic, technology, and cold steel will determine the ultimate fate of the world.</p>
 	
 		<article>
 			<h2>Beta Weekend Event!</h2>
 			<p>Beta Weekend Event 2 will begin on Friday, June 8th, at noon PDT (GMT-7) and will run until Sunday, June 10th, at 11:59 p.m. PDT (GMT-7).</p>
-				<aside>
-					<h4>Beta weekend events</h4>
-					<ol>
-						<li>Beta weekend 1: April 27th through the 29th</li>
-						<li>Beta weekend 2: June 8th through the 10th</li>
-						<li>Beta weekend 3: To be announced</li>
-						<li>Beta weekend 4: To be announced</li>
-					</ol>
-				</aside>
 		</article>
+		<aside>
+			<h4>Beta weekend events</h4>
+			<ol>
+				<li>Beta weekend 1: April 27th through the 29th</li>
+				<li>Beta weekend 2: June 8th through the 10th</li>
+				<li>Beta weekend 3: To be announced</li>
+				<li>Beta weekend 4: To be announced</li>
+			</ol>
+		</aside>
 	</section>
 
 <div id="professioncontent">
-	<section>
-		<h2><a id="professions">Professions in Guild Wars 2</a></h2>
+		<h2 id="professions">Professions in Guild Wars 2</h2>
 		<p>Below are the eight wonderful profession choices players will have available to them upon entering the world of Guild Wars 2!</p>
+		<section class="profsection">
 			<h3 id="mesmer"><span>Mesmer</span></h3>
-			<img src="images/class_icons/Mesmer.png" width="128" height="128" alt="Class Icon for the mesmer profession." title="Mesmer class icon."/>
+			<img src="images/class_icons/Mesmer.png" width="128" height="128" alt="Class Icon for the mesmer profession." title="Mesmer class icon." class ="profimg"/>
 			<p class="profession_info">Mesmers are magical duelists who rely on deception and confusion to keep their opponents in check. Indecision is their greatest ally. Using powerful illusions to distract, they make sure they never go toe to toe with an enemy; they use their powers and tactics to set up an unfair fight.</p>
 	</section>
 	
-		<section>
+		<section class="profsection">
 			<h3 id="engineer"><span>Engineer</span></h3>
-			<img src="images/class_icons/Engineer.png" width="128" height="128" alt="Class Icon for the mesmer profession." title="Mesmer class icon."/>
+			<img src="images/class_icons/Engineer.png" width="128" height="128" alt="Class Icon for the mesmer profession." title="Engineer class icon." class ="profimg"/>
 			<p class="profession_info">Masters of mechanical mayhem, engineers tinker with explosives, gadgets, elixirs, and all manner of deployable devices. They can take control of an area by placing turrets, support their allies with alchemic weaponry, or lay waste to foes with a wide array of mines, bombs, and grenades.</p>
 	</section>
 	
-		<section>
+		<section class="profsection">
 			<h3 id="thief"><span>Thief</span></h3>
-			<img src="images/class_icons/Thief.png" width="128" height="128" alt="Class Icon for the thief profession." title="Thief class icon."/>
+			<img src="images/class_icons/Thief.png" width="128" height="128" alt="Class Icon for the thief profession." title="Thief class icon." class ="profimg"/>
 			<p class="profession_info">A master of stealth and surprise, the thief is deadly in single combat—particularly when catching enemies off guard. Thieves compensate for their relatively low armor and health by being quick and evasive. They can move through the shadows, vanish into thin air, or steal items from their opponents and use them as weapons. Enemies should watch their backs, or the thief will watch it for them.</p>
 	</section>
-			<h3 id="guardian"><span>Guardian</span></h3>
-			<img src="images/class_icons/Guardian.png" width="128" height="128" alt="Class Icon for the guardian profession." title="Guardian class icon."/>
-			<p class="profession_info">The guardian is a devoted fighter who calls upon powerful virtues to smite enemies and protect allies. As dangerous with a staff as he is with a mighty two-handed hammer, a true guardian is a master tactician who knows when to sacrifice his own defenses to empower his allies to achieve victory.</p>
 	
-		<section>
+			<section class="profsection">
+				<h3 id="guardian"><span>Guardian</span></h3>
+			<img src="images/class_icons/Guardian.png" width="128" height="128" alt="Class Icon for the guardian profession." title="Guardian class icon." class ="profimg"/>
+			<p class="profession_info">The guardian is a devoted fighter who calls upon powerful virtues to smite enemies and protect allies. As dangerous with a staff as he is with a mighty two-handed hammer, a true guardian is a master tactician who knows when to sacrifice his own defenses to empower his allies to achieve victory.</p>
+		</section>
+	
+		<section class="profsection">
 			<h3 id="necromancer"><span>Necromancer</span></h3>
-			<img src="images/class_icons/Necromancer.png" width="128" height="128" alt="Class Icon for the necromancer profession." title="Necromancer class icon."/>
+			<img src="images/class_icons/Necromancer.png" width="128" height="128" alt="Class Icon for the necromancer profession." title="Necromancer class icon." class ="profimg"/>
 			<p class="profession_info">A necromancer is a practitioner of the dark arts who summons the dead, wields the power of lost souls, and literally sucks the lifeblood of the enemy. A necromancer feeds on life force, which he can use to bring allies back from the brink or cheat death itself. </p>
 	</section>
 	
-		<section>
+		<section class="profsection">
 			<h3 id="ranger"><span>Ranger</span></h3>
-			<img src="images/class_icons/Ranger.png" width="128" height="128" alt="Class Icon for the ranger profession." title="Ranger class icon."/>
+			<img src="images/class_icons/Ranger.png" width="128" height="128" alt="Class Icon for the ranger profession." title="Ranger class icon." class ="profimg"/>
 			<p class="profession_info">The ranger is a jack-of-all-trades and a master of them all as well, relying on his keen eye, steady hand, or the power of nature itself. A master of ranged combat, the ranger is capable of striking unwitting foes from a distance with his bow. With a stable of pets at his command, a ranger can adapt to his opponents' strengths and weaknesses.</p>
 	</section>
 	
-		<section>
+		<section class="profsection">
 			<h3 id="warrior"><span>Warrior</span></h3>
-			<img src="images/class_icons/Warrior.png" width="128" height="128" alt="Class Icon for the warrior profession." title="Warrior class icon."/>
+			<img src="images/class_icons/Warrior.png" width="128" height="128" alt="Class Icon for the warrior profession." title="Warrior class icon." class ="profimg"/>
 			<p class="profession_info">The warrior is a master of weapons who relies on speed, strength, toughness, and heavy armor to survive in battle. A warrior can shrug off blow after blow to stay in the fight, all the while building up adrenaline to fuel his offense.</p>
+		</section>
+			
+			<section class="profsection">
 			<h3 id="elementalist">Elementalist</h3>
-			<img src="images/class_icons/Elementalist.png" width="128" height="128" alt="Class Icon for the elementalist profession." title="Elementalist class icon."/>
+			<img src="images/class_icons/Elementalist.png" width="128" height="128" alt="Class Icon for the elementalist profession." title="Elementalist class icon." class ="profimg"/>
 			<p class="profession_info">The elementalist channels natural forces of destruction, making fire, air, earth, and water do her bidding. What the elementalist lacks in physical toughness, she makes up for in her ability to inflict massive damage in a single attack, dropping foes from a distance before they can become a threat. Yet, despite her incredible offensive potential, versatility is what makes the elementalist truly formidable.</p>
 	</section>
 </div>
 	
-	<section>		
-		<h2><a id="gallery">Gallery</a></h2>
-		<ul>
+	<section id="gallerysection">		
+		<h2>Gallery</h2>
+		<ul id="gallery">
 			<li><a href="images/Charr_Combat.jpg"><img src="images/Charr_Combat_thumb.jpg" width="400" height="225" alt="Image of a Charr during combat." title="Charr in Combat"/></a></li>
 			<li><a href="images/Divinitys_Reach.jpg"><img src="images/Divinitys_Reach_thumb.jpg" width="400" height="225" alt="Image of a capital city named, Divinitys Reach." title="The beautiful Divinitys Reach"/></a></li>
 			<li><a href="images/Guardian.jpg"><img src="images/Guardian_thumb.jpg" width="400" height="225" alt="Close up image of a human guardian." title="The human guardian!"/></a></li>
 			<li><a href="images/Human_Elementalist.jpg"><img src="images/Human_Elementalist_thumb.jpg" width="400" height="225" alt="Human Elementalist readying herself for battle" title="The human elementalist!"/></a></li>
 		</ul>
 	</section>
-</div>
 
 <footer>
 	<p>Guild Wars Copyright and Trademark Information
@@ -105,5 +121,6 @@
 	
  <p>Site designed by Justin O'Reilly &copy; 2012</p>
 </footer>
+</div>
 </body>
 </html>
