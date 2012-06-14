@@ -10,7 +10,9 @@
 }
 /*--------------------------Body Background--------------------------*/
 body{
-	margin: 0;
+	font: 100%/1.5;
+	max-width: 960px;
+	margin: 0 auto;
 	background-image: url('../images/bg_main.jpg');
 	background-repeat: repeat-x;
 	background-color: #550602;
@@ -20,21 +22,21 @@ body{
 nav ul{
 	list-style-type: none;
 	margin: 0 auto;
-	padding-left: 150px;
+	padding-left: 15.625%;
 	border: none;
 	overflow: hidden;
 }
 
 nav li{
-	width: 220px;
+	width: 22.91667%;
 	float: left;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-family: 'Righteous', cursive;
 }
 
 nav a{
 	display: block;
-	width: 150px;
+	width: 15.625%;
 	text-decoration: none;
 	color: orange;
 }
@@ -58,7 +60,7 @@ nav a:active{
 
 ol{
 	text-align: left;
-	width: 300px;
+	width: 62.5%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -66,12 +68,22 @@ ol{
 #wrapper{
 	background: #2f0101;
 	margin: 0 auto;
-	width: 960px;
+	width: 100%;
 	overflow: hidden;
 }
 
+#mainimage{
+	margin: 0 auto;
+	border: solid;
+	width: 96.875%;
+}
+
+#mainimage img{
+	max-width: 100%;
+}
+
 h1{
-	font-size: 60px;
+	font-size: 3.75em;
 	text-align: center;
 	font-family: 'Shojumaru', cursive, arial;
 }
@@ -81,13 +93,13 @@ header{
 	}
 	
 h2{
-	font-size: 40px;
+	font-size: 2.5em;
 	text-decoration: none;
 	font-family: 'Righteous', cursive;
 }
 
 h3{
-	padding: 10px;
+	padding: 1.0416667%;
 	text-shadow: #fff 0.3em 0.1em 1em;
 	font-family: 'Righteous', cursive;
 }
@@ -97,29 +109,28 @@ h4{
 }
 
 #maincontent{
+	width: 100%;
 	text-align: center;
-}
-
-img{
-	border: solid;
+	font: 100%;
 }
 #aboutgw2{
-	padding: 5px;
+	padding: 0.5208333%;
 	-moz-column-count: 3;
 	-moz-column-gap: 1.5em;
 	-moz-column-rule: 2px dashed #550602;	
 }
 	
 article{
-	width: 480px;
+	width: 50%; /*480px*/
 	float:left;
 }
 
 article h2{
-	font-size: 25px;
+	font-size: 1.5625em;
 }
 
 aside{
+	width: 50%;
 	overflow: hidden;
 }
 
@@ -129,13 +140,14 @@ aside{
 }
 /*--------------------------Professions Content--------------------------*/
 #professioncontent{
+	width: 100%;
 	clear: both;
 	text-align: center;
 }
 
 #professioncontent h2{
-		padding-top: 20px;
-		font-size: 40px;
+		padding-top: 2.083333%;
+		font-size: 2.5em;
 }
 .profimg{
 	border: none;
@@ -143,12 +155,12 @@ aside{
 }
 
 .profession_info{
-	width: 480px;
+	width: 100%;
 }
 
 .profsection{
-	width: 480px;
-	height: 225px;
+	width: 50%;
+	height: 46.875%;
 	float: left;
 	text-align: left;
 }
@@ -158,17 +170,20 @@ h3{
 }
 /*--------------------------Gallery--------------------------*/
 #gallery{
+	width: 93.75%;
+	height: 100%;
+	margin: 0 auto;
 	clear: left;
 }
 
 #gallery img{
-	border: none;
+	max-width: 100%;
 }
 
 #gallerysection h2{
 	clear: left;
-	padding-top: 20px;
-	font-size: 40px;
+	padding-top: 2.083333%;
+	font-size: 2.5em;
 	text-align: center;
 }
 
@@ -180,13 +195,12 @@ ul{
 
 ul li{
 	float: left;
-	padding: 10px;
+	padding: 1.041667%;
 }
 
 #gallery a{
 	border: solid 10px green;
-	height: 225px;
-	width: 400px;
+	width: 90%;
 	display: block;
 }
 
@@ -206,6 +220,6 @@ footer{
 	
 	text-align: center;
 	background: black;
-	padding: 1px 10px;
+	padding: 0.1041667% 1.041667%;
 	
 }
