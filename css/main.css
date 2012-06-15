@@ -10,7 +10,7 @@
 }
 /*--------------------------Body Background--------------------------*/
 body{
-	font: 100%/1.5;
+	font: 100% Helvetica, Georgia, Arial;
 	max-width: 960px;
 	margin: 0 auto;
 	background-image: url('../images/bg_main.jpg');
@@ -36,7 +36,7 @@ nav li{
 
 nav a{
 	display: block;
-	width: 15.625%;
+	width: 100%;
 	text-decoration: none;
 	color: orange;
 }
@@ -70,6 +70,7 @@ ol{
 	margin: 0 auto;
 	width: 100%;
 	overflow: hidden;
+	padding: 1.0416667%;
 }
 
 #mainimage{
@@ -111,7 +112,6 @@ h4{
 #maincontent{
 	width: 100%;
 	text-align: center;
-	font: 100%;
 }
 #aboutgw2{
 	padding: 0.5208333%;
@@ -222,4 +222,65 @@ footer{
 	background: black;
 	padding: 0.1041667% 1.041667%;
 	
+}
+
+/*--------------------------Media Queries--------------------------*/
+
+
+/*--------------------------Tablet to Standard--------------------------*/
+@media screen and (min-width:768px) and (max-width:959px) {
+
+}
+
+/*--------------------------Mobile to Tablet--------------------------*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.profimg{
+		float: left;
+	}
+		.profsection{
+		overflow: hidden;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+		#professioncontent h3{
+		overflow: hidden;
+		width: 100%;
+		text-align: left;
+	}
+		#gallery{
+		float: none;
+	}
+		#gallerysection{
+		width: 90%;
+	}
+}
+
+/*--------------------------Mobile--------------------------*/
+@media only screen and (max-width:479px){
+	#aboutgw2{
+	padding: 0.5208333%;
+	-moz-column-count: 1;
+	text-align: center;
+	text-indent: 3em;
+	width: 90%;
+}
+	.profsection{
+		float: none;
+		width: 90%;
+		text-align: center;
+	}
+	.profimg{
+		float: none;
+	}
+	nav li{
+		float: none;
+		width: 90%;
+	}
+	#mainimage{ display: none;}
+	
+	aside{ display: none;}
+	
+	article{
+		width: 90%;
 }
