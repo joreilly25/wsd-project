@@ -257,7 +257,7 @@ footer{
 }
 
 /*--------------------------Mobile--------------------------*/
-@media only screen and (max-width:479px){
+@media only screen and (max-width:959px){
 	#aboutgw2{
 	padding: 0.5208333%;
 	-moz-column-count: 1;
