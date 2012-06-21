@@ -215,11 +215,92 @@ ul li{
 #gallery a:active{
 	border-color:#f3d18a;
 }
+
+/*--------------------------Table/Form--------------------------*/
+#tablesection{
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+#tablesection h2{
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px dashed green;
+	text-align: center;
+}
+
+.odd{
+	background: #f3d18a;
+	color: #550602;
+}
+
+th{
+	border: 2px dashed green;
+}
+
+td{
+	padding: 1em;
+}
+
+#formsection{
+	width: 50%;
+	overflow: hidden;
+	text-align: center;
+}
+
+#formsection h2{
+	
+	text-align: center;
+}
+
+input:focus{
+	background: #f3d18a;
+}
+
+input{
+	width: 30%;
+	padding: 2px 2px;
+	margin: 2px 0 20px 10px;
+}
+
+#first_name{
+	
+}
+
+select{
+	width: 30%;
+	padding: 2px 2px;
+	margin: 2px 0 20px 10px;
+}
+
+label{
+	display: block;
+	padding: 2px 2px;
+	text-align: center;
+}
+
+button{
+	border-radius: 10px;
+	clear:both;
+	width:26.04167%;
+	height:6.458333%;
+	background:#f3d18a;
+	text-align:center;
+	color:#550602;
+	font-size:0.938em;
+	font-weight:bold;
+	margin: 2%;
+}
 /*--------------------------Footer--------------------------*/
 footer{
 	
 	text-align: center;
 	background: black;
+	overflow: hidden;
 	padding: 0.1041667% 1.041667%;
 	
 }
@@ -254,7 +335,15 @@ footer{
 		#gallerysection{
 		width: 90%;
 	}
-}
+	
+	#tablesection{ display: none;}
+	#formsection{ width: 95%;}
+	
+	input, select{
+			height: 35px;
+			width: 90%;
+		}
+	}
 
 /*--------------------------Mobile--------------------------*/
 @media only screen and (max-width:540px){
@@ -281,6 +370,14 @@ footer{
 	
 	aside{ display: none;}
 	
+	#tablesection{ display: none;}
+	#formsection{ width: 95%;}
+		input, select{
+			height: 35px;
+			width: 90%;
+	}
+	
 	article{
 		width: 90%;
+	}
 }

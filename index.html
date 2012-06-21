@@ -2,7 +2,8 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>A Guild Wars 2 Fansite!</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href='http://fonts.googleapis.com/css?family=Shojumaru' rel='stylesheet' type='text/css'>
@@ -12,7 +13,7 @@
 	<div id="wrapper">	
 	<header>				
 		<h1>Guild Wars 2 Fansite</h1>
-		<img src="images/GW2_mainimage.jpg" width="930" height="350" alt="The main image for this Guild Wars 2 fansite" title="Guild Wars 2 fansite!"/>
+		<div id="mainimage"><img src="images/GW2_mainimage.jpg" alt="The main image for this Guild Wars 2 fansite" title="Guild Wars 2 fansite!"/></div>
 		<nav>
 			<ul>
 				<li><a href ="index.html">Home</a></li>
@@ -108,12 +109,74 @@ Magic, technology, and cold steel will determine the ultimate fate of the world.
 	<section id="gallerysection">		
 		<h2>Gallery</h2>
 		<ul id="gallery">
-			<li><a href="images/Charr_Combat.jpg"><img src="images/Charr_Combat_thumb.jpg" width="400" height="225" alt="Image of a Charr during combat." title="Charr in Combat"/></a></li>
-			<li><a href="images/Divinitys_Reach.jpg"><img src="images/Divinitys_Reach_thumb.jpg" width="400" height="225" alt="Image of a capital city named, Divinitys Reach." title="The beautiful Divinitys Reach"/></a></li>
-			<li><a href="images/Guardian.jpg"><img src="images/Guardian_thumb.jpg" width="400" height="225" alt="Close up image of a human guardian." title="The human guardian!"/></a></li>
-			<li><a href="images/Human_Elementalist.jpg"><img src="images/Human_Elementalist_thumb.jpg" width="400" height="225" alt="Human Elementalist readying herself for battle" title="The human elementalist!"/></a></li>
+			<li><a href="images/Charr_Combat.jpg"><img src="images/Charr_Combat_thumb.jpg" alt="Image of a Charr during combat." title="Charr in Combat"/></a></li>
+			<li><a href="images/Divinitys_Reach.jpg"><img src="images/Divinitys_Reach_thumb.jpg" alt="Image of a capital city named, Divinitys Reach." title="The beautiful Divinitys Reach"/></a></li>
+			<li><a href="images/Guardian.jpg"><img src="images/Guardian_thumb.jpg" alt="Close up image of a human guardian." title="The human guardian!"/></a></li>
+			<li><a href="images/Human_Elementalist.jpg"><img src="images/Human_Elementalist_thumb.jpg" alt="Human Elementalist readying herself for battle" title="The human elementalist!"/></a></li>
 		</ul>
 	</section>
+	
+	<section id="tablesection">
+		<h2>Who can Tank/Heal/DPS?</h2>
+		<table>
+			<tr>
+				<th>Number of Classes</th>
+				<th class="odd">Classes that can TANK</th>
+				<th>Classes that can HEAL</th>
+				<th class="odd">Classes that can DPS</th>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td class ="odd">8</td>
+				<td>8</td>
+				<td class ="odd">8</td>
+			</tr>
+			</table>	
+		</section>
+		
+		<section id="formsection">
+			<h2>Tell us your favorite class!</h2>
+			<form method="get" action="forms.html">
+				<div>
+					<label for="first_name">First Name</label>
+					<input type="text" name="first_name" id="first_name" placeholder="First Name"/>
+				</div>
+				
+				<div>
+					<label for="last_name">Last Name</label>
+					<input type="text" name="last_name" id="last_name" placeholder="Last Name"/>
+				</div>
+				
+				<div>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" placeholder="Example@email.com"/>
+				</div>
+				
+				<div>
+					<label for="fav_class">Favorite Class</label>
+				</div>
+				
+				<div>
+					<select name="fav_class" id="fav_class">
+						<option>Mesmer</option>
+						<option>Engineer</option>
+						<option>Thief</option>
+						<option>Guardian</option>
+						<option>Ranger</option>
+						<option>Necromancer</option>
+						<option>Warrior</option>
+						<option>Elementalist</option>
+					</select>
+				</div>
+				
+				<div>
+					<button type="submit" name="submit" class="button">Send</button>
+				</div>
+			
+			</form>
+		</section>
+		
+	<div class="clearfix"></div>
 
 <footer>
 	<p>Guild Wars Copyright and Trademark Information
